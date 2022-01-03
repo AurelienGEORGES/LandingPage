@@ -1,0 +1,227 @@
+@font-face {
+    font-family: "ModernSans-Light";
+    src: url("ModernSans-Light.otf");
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: 'ModernSans-Light';
+}
+
+header {
+    background-color: #F38E59; 
+}
+
+#logoLander {
+    color: white;
+    width: 140px; 
+    height: 49px;
+}
+
+.Liens li {
+    display: inline-block;
+}
+
+.Liens li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16.2px;
+    padding: 16px 12.8px;
+}
+
+
+.NavHeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.buttonNav1 {
+    background: #23272A;
+    color: white;
+    display: inline-block;
+    border-radius: 7px;
+    padding: 15px 32px;
+    margin: 0px 2px;
+}
+
+.buttonNav1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttonNav2 {
+    background:#F38E59;
+    color: white;
+    background-size: 20px;
+    font-size: 12.8px;
+    border-radius: 7px;
+    border:  white solid 3px;
+    padding: 15px 32px;
+    display: inline-block;
+    margin: 0px 2px;
+}
+
+.buttonNav2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.centreTitreH1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 72px;
+    padding: 120px 0px 0px 0px;
+}
+
+.centreTitreH2 {
+    text-align: center;
+    color: #333333;
+    padding: 0px 0px 80px 0px;
+    font-size: 19.2px;
+}
+
+h3 {
+    font-weight: 700;
+    color: #5BB5DE;
+}
+
+h3 p {
+    font-weight: lighter;
+}
+
+.formulaireContactFlex {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.formulaireContact {
+    margin: 10px 0px 10px 0px;
+}
+
+#btnSubmit {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #F38E59;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    text-align: right;
+    margin-left: 400px;
+
+}
+
+.blocTotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.blocGauche {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+}
+
+.blocDroite {
+    display: flex; 
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+}
+
+span {
+    color: #F38E59;
+}
+
+.partieConnect {
+    display: flex;
+    flex-direction: row;
+}
+
+#customBoutonFooter {
+        padding: 5px 5px;
+        font-size: 0,8em;
+        font-weight: 700;
+        text-transform:uppercase;
+        margin: 1.7em 0;
+        background-color: rgb(2, 32, 47);
+        color: white;
+        border-radius: 0.4rem;
+        border: none;
+    }
+
+#customBoutonFooter a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    
+}
+
+#logoOrange {
+    color: #F38E59;
+    display: inline-block;
+}
+
+#GrisTitresFooter {
+    color: #FFFFFF;
+}
+
+.GrisLiensFooter a {
+    color: #FFFFFF99;
+    text-decoration: none;
+}
+
+.GrisLiensFooter {
+    color: #FFFFFF99;
+}
+
+.GrisLiensFooter li {
+    list-style: none;
+    justify-content: left;
+}
+
+.footerBlock {
+    display: flex;
+    background-color: #404040;
+}
+
+#OrangeCopyright {
+    color: #F38E59;
+    text-decoration: none;
+}
+
+#greyBackground {
+    background-color: #333333;
+}
+
+#greyBackground p {
+    color: #FFFFFF99;
+}
+
+.orientationColonne {
+    flex-direction: column;
+}
+
+.blocLogosSociaux {
+    color: #F38E59;    
+    display: flex;
+}
+
+footer {
+    justify-content: space-around;
+}
+
+.alignLeftSocial {
+    display: flex;
+}
+
+.alignBlocSocial {
+    flex-direction: column;
+}
